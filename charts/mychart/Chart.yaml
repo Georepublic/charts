@@ -23,5 +23,8 @@ version: 0.1.1
 # follow Semantic Versioning. They should reflect the version the application is using.
 appVersion: 1.16.0
 
-maintainer:
-  name: Georepublic
+maintainers:
+  - name: Georepublic
+    email: info@georepublic.de
+    url: https://georepublic.info
+
