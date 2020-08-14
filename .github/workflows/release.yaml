@@ -23,5 +23,6 @@ jobs:
         uses: helm/chart-releaser-action@master
         env:
           CR_TOKEN: '${{ secrets.CR_TOKEN }}'
-        # with:
-        #   charts_dir: 'experimental'
+        with:
+          charts_dir: charts
+          charts_repo_url: https://georepublic.github.io/charts
