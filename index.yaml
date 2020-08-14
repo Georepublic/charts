@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-08-14T03:59:51.975390331Z"
+    description: A Helm chart for Kubernetes
+    digest: f53e8df24cc92a383988111714782525333fd8b86dbf35f962136507b8074af8
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/Georepublic/charts/releases/download/mychart-0.1.0/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-08-14T03:59:51.83897819Z"
