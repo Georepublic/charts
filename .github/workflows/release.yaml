@@ -5,8 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'experimental/**'
-      - 'stable/**'
+      - 'charts/**'
 
 jobs:
   release:
@@ -24,5 +23,5 @@ jobs:
         uses: helm/chart-releaser-action@master
         env:
           CR_TOKEN: '${{ secrets.CR_TOKEN }}'
-        with:
-          charts_dir: 'experimental'
+        # with:
+        #   charts_dir: 'experimental'
