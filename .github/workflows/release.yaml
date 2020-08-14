@@ -26,4 +26,3 @@ jobs:
           CR_TOKEN: '${{ secrets.CR_TOKEN }}'
         with:
           charts_dir: 'experimental'
-          branch: gh-pages
